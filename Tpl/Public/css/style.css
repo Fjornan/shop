@@ -1,0 +1,719 @@
+html{font-family:"Microsoft YaHei UI";}
+.pic-suit{background-repeat:no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";}
+.small-blur{height:1px;	overflow:hidden;display:block;}
+.mid-blur{height:5px;}
+.large-blur{height:10px;}
+.padding-none{padding:0; !important}
+.margin-none{margin:0; !important}
+.goods_id{display:none;}
+.winback{float:left;height:50px;line-height:50px;padding:0px 0px;font-size:18px;margin-right:30px;color:#999;}
+.contain-margin-top{margin-top: 50px;}
+/* 
+index.Tpl CSS
+*/
+.swiper-container {
+	top:50px;
+	width: 100%;
+	height: 150px;
+	
+}
+ .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide span{
+	width:100%;
+	height:100%;
+   -moz-background-size:100% 100%;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+}
+
+.swiper-one{
+	background-size:100% 100%;
+	background-image:url(../image/1.jpg);
+}
+.swiper-two{
+	background-size:100% 100%;
+	background-image:url(../image/2.jpg)
+}
+.swiper-three{
+	background-size:100% 100%;
+	background-image:url(../image/3.jpg)
+}
+.index-list{
+	margin-top:50px;
+	height:80px
+}
+.index-list li{
+	height:50px;
+	line-height:30px;
+	text-align:center;
+}
+.index-list li span{
+	margin-top:10px;
+	margin-bottom:-7px;
+	width:50px;
+	height:50px;
+	display:inline-block;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#list-all span{
+	background-image:url(../image/icon/list-all.png)
+}
+#list-seckill span{
+	background-image:url(../image/icon/list-seckill.png)
+}
+#list-coupon span{
+	background-image:url(../image/icon/list-coupon.png)
+}
+#list-message span{
+	background-image:url(../image/icon/list-message.png)
+}
+.index-list li p{
+	position:relative;
+	top:-5px;
+	height:15px;
+	font-size:12px;
+	font-family:"Microsoft YaHei UI";
+}
+.hot-recommend{
+	font-family:"Microsoft YaHei UI";
+}
+.hot-recommend h5{
+	color:#F60;
+}
+.hot-recommend h5 span{
+	position:relative;
+	top:3px;
+	height:18px;
+	width:18px;
+	background-image:url(../image/icon/hot-recommend.png);
+	display:inline-block;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+.hot-list-each{
+	padding-top:5px;
+	background-color:#FFF;
+	margin-bottom:5px;
+}
+.hot-goods-name{
+	position:relative;
+	height:33px;
+	overflow:hidden;
+	top:5px;
+	font-size:12px;
+}
+.hot-goods-price{
+	position:relative;
+	color:#F00;
+	font-size:12px;
+}
+.hot-recommend-bottom{
+	height:50px;
+}
+.index-bottom li{
+	height:50px;
+	line-height:30px;
+	text-align:center;
+}
+.index-bottom li span{
+	top:5px;
+	bottom:-10px;
+	font-size:30px;
+	color:#888
+}
+.index-bottom li p{
+	position:relative;
+	top:-5px;
+	height:15px;
+	font-size:12px;
+	font-family:"Microsoft YaHei UI";
+}
+.bottom-active span{
+	color:#06C !important
+}
+.bottom-active p{
+	color:#06c !important
+}
+/***************       coupon.Tpl       ********************/
+
+.coupon-contain{
+	margin-top: 50px;
+	background-color: #eee;
+	padding-top: 20px;
+	font-family: "Microsoft YaHei UI";
+}
+.coupon-list-contain{
+	margin-bottom: 10px;
+}
+.coupon-list{
+	background-color: #fff;
+}
+.coupon-add{
+	height: 91px;
+	line-height: 91px;
+	font-size: 18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background-color:#66F572;/*F4F66A*/
+}
+
+/******************goodslist css********************/
+.goodslist-left{
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow: auto;
+}
+.goodslist-left li{
+	width:100%;
+	font-family:"Microsoft YaHei UI";
+	color:#000;
+	font-size:12px;
+	height:50px; 
+	line-height:50px;
+	border-bottom:solid 3px #eee;
+}
+.goodslist-right{
+	background-color:#eee;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	overflow: auto;
+
+}
+.list-container{
+	background-color:#fff;
+	margin-bottom: 3px;
+}
+.list-pic{
+	width:40%;
+	float:left;
+}
+.list-content{
+	padding:5px;
+	width:60%;
+	float:left;
+	font-size:12px;
+	font-family:"Microsoft YaHei UI";
+}
+.list-content span{
+	display:inline-block;
+}
+.goods-name{
+	color:#000;
+	overflow:hidden;
+	height:35px;
+}
+.goods-price{
+	font-size:14px;
+	color:#F30;
+	padding-bottom:5px;
+}
+.goods-comment{
+	color:#999;
+}
+.goods-comment span{
+	font-size:10px;
+}
+.addto-shoppingcart{
+	position:relative;
+	top:-2px;
+	right:8px;
+	height:18px;
+	width:18px;
+	float:right;
+	background-image:url(../image/icon/addto-shoppingcart.png)
+}
+
+/*********************      goodsdetail css     *************************/
+.goods-colletced{
+	color:red;
+}
+.goodsdetail-container{
+	padding:0;
+	margin-top:50px;
+	margin-bottom:80px;
+	font-family:"Microsoft YaHei UI";
+}
+
+/*.back-to-goodslist span{
+	line-height:50px;
+	font-size:24px;
+	color:#999;
+}*/
+.detail-goods-content{
+	padding-left:10px;
+	padding-right:10px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.detail-goods-price{
+	color:#F30;
+}
+.detail-goods-price span{
+	font-size:18px;
+}
+.detail-goods-price p{
+	display:inline-block;
+	font-size:24px;
+
+}
+.detail-goods-sold{
+	float:left;
+}
+.detail-goods-stock{
+	float:right;
+}
+.detail-goods-sold p,.detail-goods-stock p{
+	display:inline-block;
+}
+.detail-goods-sold span,.detail-goods-stock span{
+	color:#999;
+}
+.detail-instruction{
+	color:#666;
+	letter-spacing:2px;
+}
+.goodsdetail-bottom{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:0px;
+}
+.goodsdetail-bottom span{
+	font-size:24px;
+	color: #999;
+}
+.goodsdetail-bottom li{
+	top:10px;
+	bottom:5px;
+	padding:0px;
+}
+.goodsdetail-bottom li p{
+	font-family:"Microsoft YaHei UI";
+	font-size:12px;
+	line-height:20px;
+}
+.add-goods{
+	background-color:#F30; 
+	height:60px;
+	line-height:60px;
+	color:#fff;
+	font-family:"Microsoft YaHei UI";
+	font-size:18px;
+}
+
+/********************       shoppingcart CSS      **********************/
+.head-title{
+	height:50px;
+	line-height:50px;
+	font-family:"Microsoft YaHei UI";
+	font-size:18px;
+	letter-spacing:2px;
+	color:#888;
+}
+.shcart-contain{
+	margin-top:50px;
+	margin-bottom: 110px;
+}
+.shcart-list-contain{
+	border-bottom: 5px #eee solid;
+}
+.shcart-goods-content{
+	font-family:"Microsoft YaHei UI";
+}
+.shcart-list-name{
+	margin-top:5px;
+	height:40px;
+	overflow:hidden;
+}
+.shcart-list-price{
+	color:#F30;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.shcart-list-amount{
+	height:20px;
+	line-height:20px;
+
+}
+.shcart-change-amount{
+	display:inline-block;
+	float:right;
+	margin-right:10px;
+	height:20px;
+
+}
+.shcart-list-minus{
+	background-image:url(../image/icon/minus.png);
+	height:20px;
+	width:20px;
+	background-size:cover;
+	display:inline-block;
+}
+.shcart_goods_amount{
+	padding-left:5px;
+	padding-right:5px;
+	position:relative;
+	bottom:2px;
+	display:inline-block;
+	width:50px;
+	text-align:center;
+	font-size:20px;
+	line-height:20px;
+	color:#F30
+}
+.shcart-list-plus{
+	background-image:url(../image/icon/plus.png);
+	height:20px;
+	width:20px;
+	background-size:cover;
+	display:inline-block;
+}
+.shcart-operate{
+	margin-bottom: 60px; 
+	background-color: #eee;
+}
+.shcart-operate li{
+	height: 50px;
+	line-height: 50px;
+	font-family: "Microsoft YaHei UI";
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+.shcart-clear-all{
+	background-color: #FC0;
+	color: #fff;
+}
+.shcart-all-price-contain{
+	color: #f30;
+}
+.shcart-all-price{
+	font-size: 20px;
+}
+.shcart-account{
+	background-color: #F30;
+	color:#fff
+}
+
+/*
+	personal.Tpl CSS
+*/
+.personal-message{
+	margin-bottom: 60px;
+}
+.personal-head{
+	height:160px;
+	background-image:url(../image/personal-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+   -moz-background-size:100% 100%;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+}
+.personal-pic{
+	border-radius:100px;
+	margin:auto;
+	position:relative;
+	margin-top:15px;
+	height:100px;
+	width:100px;
+	background-image:url(../image/personal-blank.jpg);
+}
+.personal-name{
+	margin:10px auto;
+	font-size:18px;
+	color:#FFF;
+	font-family:"Microsoft YaHei UI"
+}
+.order-assortment span{
+	margin-top:20px;
+	margin-bottom:10px;
+	font-size:32px;
+	color:#999
+}
+.personal-message{
+	font-family:"Microsoft YaHei UI";
+}
+.message-list{
+	position:relative;
+	overflow:hidden;
+	height:50px;
+	line-height:50px;
+}
+.message-left-pic{
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+	top:3px;
+	display:inline-block;
+	height:16px;
+	width:16px;
+}
+.message-title{
+	display:inline-block;
+	font-size:16px
+}
+.message-right-arr{
+	float:right;
+	width:20px;
+	height:16px;
+	position:relative;
+	top:20px;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-image:url(../image/icon/arr.png)
+}
+.personal-order-pic{
+background-image:url(../image/icon/list-order.png)
+}
+.personal-address-pic{
+	background-image:url(../image/icon/personal-address.png)
+}
+.personal-collection-pic{
+	background-image:url(../image/icon/collection.png)
+}
+.personal-coupon-pic{
+	background-image:url(../image/icon/list-coupon.png)
+}
+/************************        myaddress.Tpl       **************************/
+.myaddress-contain{
+	margin-top:50px;
+	background-color:#eee;
+
+}
+.myaddress-list{
+	padding-top: 10px;
+	border-bottom: 2px solid #fff;
+}
+.myaddress-back{
+	float:left;
+	height:50px;
+	line-height:50px;
+	padding:0px 0px;
+	font-size:18px;
+	margin-right:30px;
+	color:#999;	
+}
+.myaddress-add{
+	position:relative;
+	top:10px;
+	float:right;
+	height:30px;
+	line-height:30px;
+	padding:0px 0px;
+	font-size:12px;
+	color:red;
+	font-family:"Microsoft YaHei UI";
+/*	background-color:#DDD;
+	border-radius:5px;
+	box-shadow:0px 1px 8px #999;*/
+}
+.myaddress-left span{
+	font-family:"Microsoft YaHei UI";
+}
+
+.myaddress-address{
+	height: 20px;
+	line-height: 20px;
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden;
+}
+.myaddress-right span{
+	height: 50px;
+	line-height: 50px;
+}
+
+/*******************          编辑地址          ***********************/
+.addressedit-contain{
+	margin-top: 50px;
+	padding:20px;
+	font-family:"Microsoft YaHei UI";
+}
+.addressedit-contain input{
+	border: none;
+	outline:none;
+	width: 100%;
+}
+.addressedit-contain li{
+	margin-bottom:20px;
+	border-bottom: 2px #DDD solid;
+}
+.addressedit-contain li span{
+	margin-right:30px;
+	color:#777;
+	font-size: 12px;
+}
+.address-delete{
+	margin-left: 20px;
+	margin-right: 20px;
+	background:#eee;
+	padding:10px;
+	color:red;
+	font-size: 18px;
+	font-family: "Microsoft YaHei UI";
+	letter-spacing: 1px;
+	border-radius:5px;
+	box-shadow:0px 1px 8px #999;
+}
+
+/*******************          mycoupon.Tpl 我的卡券          ***********************/
+.mycoupon-contain{
+	margin-top: 50px;
+	background-color: #eee;
+	padding-top: 20px;
+}
+.mycoupon-list{
+	background-color: #fff;
+	border-radius:5px;
+	box-shadow:0px 1px 8px #999;
+	font-family: "Microsoft YaHei UI";
+	margin-bottom: 20px;
+}
+
+.coupon-content{
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px #ccc solid;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.coupon-note{
+	height: 20px;
+	line-height: 20px;
+	padding-left: 10px;
+	font-size: 10px;
+	background-color: #eee;
+	color: #999;
+}
+
+/***************************          orderconfirm.Tpl           ********************************/
+.orderconfirm-contain{
+	background-color: #eee;	
+}
+.shipping-contain{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+.shipping-contain p{
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden;
+	padding-left: 10px;
+	font-family: "Microsoft YaHei UI";
+	font-size: 12px;
+}
+.shipping-contain p span:first-child{
+	color: #999;	
+}
+.choose-address{
+	position: relative;
+	top:28px;
+	color: #777;
+}
+.shoppingcart-goods{
+	background-color: #fff;
+}
+.orderconfirm-bottom .text-center{
+	height: 50px;
+	line-height: 50px;
+}
+.orderconfirm-bottom{
+	font-family: "Microsoft YaHei UI";
+	color: #f30;
+}
+.orderconfirm-bottom span:first-child{
+	font-size: 10px;
+}
+.sumprice{
+	font-size: 16px;
+}
+.generate-order{
+	background-color: #f30;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+/***************************     myorder.Tpl     ****************************/
+.myorder-contain{
+	background-color: #eee;
+	font-family: "Microsoft YaHei UI";
+
+}
+.myorder-list{
+	background-color: #fff;
+}
+.order-title,.order-content{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.order-title {
+	font-size: 12px;
+
+}
+.order-id{
+	font-size: 14px;
+}
+.order-status{
+	float: right;
+	color: red;
+}
+.order-goods-name, .order-shipping-address{
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden;
+}
+.order-goods-name{
+	color: #000
+}
+.order-shipping-contacts,.order-shipping-address{
+	font-size: 12px;
+}
+
+/****************************      订单详情页面     *****************************/
+
+.order-detail-content{
+	float:left;
+}
+.buy-amount{
+	color:#f90;
+}
+.order-detail-bottom{
+	height: 50px;
+	line-height: 50px;
+	font-family: "Microsoft YaHei UI";
+	color: #f30;
+}
+.order-detail-bottom .text-center{
+	color: #fff;
+	letter-spacing: 1px;
+}
+.cancel-order{
+	background-color: #f30;
+}
+.pay-order{
+	background-color: #f90
+}
+.confirm-receive{
+	background-color: #f30
+}

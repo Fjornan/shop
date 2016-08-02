@@ -1,0 +1,538 @@
+[ 2016-06-10T12:44:23+08:00 ] 0.0.0.0 /shop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008640s ]
+SQL: SELECT `user_status` FROM `user` WHERE ( `loginkey` = '15168365220' ) LIMIT 1   [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000680s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-06-10T12:44:23+08:00 ] 0.0.0.0 /shop/Index/hotRecommend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.004664s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status = 1 )  [ RunTime:0.000776s ]
+
+[ 2016-06-10T12:44:27+08:00 ] 0.0.0.0 /shop/Index/goodslist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\programs\phpstudy\WWW\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\programs\phpstudy\WWW\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\programs\phpstudy\WWW\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000412s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-06-10T12:44:28+08:00 ] 0.0.0.0 /shop/Goods/getGoods
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002818s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_type` = 1 )  [ RunTime:0.000339s ]
+
+[ 2016-06-10T12:44:30+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:44:33+08:00 ] 0.0.0.0 /shop/Display/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-06-10T12:44:33+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:44:33+08:00 ] 0.0.0.0 /shop/Index/hotRecommend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.004731s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status = 1 )  [ RunTime:0.000336s ]
+
+[ 2016-06-10T12:44:34+08:00 ] 0.0.0.0 /shop/Display/personal.Tpl
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007275s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-06-10T12:44:35+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:44:35+08:00 ] 0.0.0.0 /shop/Personal/userMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004812s ]
+SQL: SELECT * FROM `user` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000366s ]
+
+[ 2016-06-10T12:50:47+08:00 ] 0.0.0.0 /shop/Display/myaddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008372s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-06-10T12:50:47+08:00 ] 0.0.0.0 /shop/Personal/getMyAddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.005946s ]
+SQL: SELECT * FROM `address` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000301s ]
+
+[ 2016-06-10T12:50:47+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:50:48+08:00 ] 0.0.0.0 /shop/Display/addressEdit?id=10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010016s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002551s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-06-10T12:50:48+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:50:49+08:00 ] 0.0.0.0 /shop/Personal/getMyAddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.002923s ]
+SQL: SELECT * FROM `address` WHERE ( `id` = 10 )  [ RunTime:0.000257s ]
+
+[ 2016-06-10T12:50:50+08:00 ] 0.0.0.0 /shop/Display/myaddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007069s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000565s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000687s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002298s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-06-10T12:50:50+08:00 ] 0.0.0.0 /shop/Personal/getMyAddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.005176s ]
+SQL: SELECT * FROM `address` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.001325s ]
+
+[ 2016-06-10T12:50:50+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:50:51+08:00 ] 0.0.0.0 /shop/Display/personal
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006416s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-06-10T12:50:51+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:50:51+08:00 ] 0.0.0.0 /shop/Personal/userMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006629s ]
+SQL: SELECT * FROM `user` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000356s ]
+
+[ 2016-06-10T12:50:52+08:00 ] 0.0.0.0 /shop/Display/goodslist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-06-10T12:50:52+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:50:52+08:00 ] 0.0.0.0 /shop/Goods/getGoods
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.005962s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_type` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-06-10T12:50:53+08:00 ] 0.0.0.0 /shop/Display/shoppingcart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010281s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001984s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2016-06-10T12:50:53+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:50:53+08:00 ] 0.0.0.0 /shop/ShoppingCart/getShoppingcart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.003983s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.006004s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000150s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010808785737' )  [ RunTime:0.000157s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010822558877' )  [ RunTime:0.000149s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010812345678' )  [ RunTime:0.000156s ]
+
+[ 2016-06-10T12:50:53+08:00 ] 0.0.0.0 /shop/Display/orderconfirm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-06-10T12:50:54+08:00 ] 0.0.0.0 /shop/Order/orderConfirm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.004707s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.004063s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000179s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010808785737' )  [ RunTime:0.000194s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010822558877' )  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010812345678' )  [ RunTime:0.000303s ]
+
+[ 2016-06-10T12:51:00+08:00 ] 0.0.0.0 /shop/Display/shoppingcart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-06-10T12:51:01+08:00 ] 0.0.0.0 /shop/Tpl/Public/js/maps/swiper.jquery.min.js.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Tpl
+
+[ 2016-06-10T12:51:01+08:00 ] 0.0.0.0 /shop/ShoppingCart/getShoppingcart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.006225s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002818s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010808785737' )  [ RunTime:0.000417s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010822558877' )  [ RunTime:0.000314s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010812345678' )  [ RunTime:0.000441s ]
+
+[ 2016-06-10T12:51:02+08:00 ] 0.0.0.0 /shop/Display/orderconfirm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001760s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-06-10T12:51:03+08:00 ] 0.0.0.0 /shop/Order/orderConfirm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000602s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.004992s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002977s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010808785737' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010822558877' ) LIMIT 1   [ RunTime:0.000812s ]
+SQL: SELECT `goods_price` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT `goods_pic` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT `goods_name` FROM `goods` WHERE ( `goods_id` = '2015010812345678' ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( `loginkey` = '15168365220' )  [ RunTime:0.000244s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010808785737' )  [ RunTime:0.000951s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010822558877' )  [ RunTime:0.000449s ]
+SQL: SELECT * FROM `goods` WHERE ( `goods_id` = '2015010812345678' )  [ RunTime:0.000332s ]
+

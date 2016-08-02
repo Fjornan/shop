@@ -1,0 +1,139 @@
+.padding-none{
+	padding:0; !important
+}
+.margin-none{
+	margin:0; !important
+}
+.base-background{
+	background-color:#eee;
+}
+.page-left{
+	float:left;
+	width:110px;
+	overflow: auto;
+}
+.page-left li{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background-color:#fff;
+	margin-bottom:5px;
+	letter-spacing:1px;
+	cursor:pointer;
+	font-family:"Microsoft YaHei UI";
+}
+
+.add-assortment{
+	height:50px;
+	line-height:50px;
+	margin-bottom:5px;
+	background-color:#fff;
+}
+.add-assortment button{
+	position:relative;
+	top:8px;
+}
+.page-right{
+	float:left;
+	margin-top:8px;
+	margin-left:15px;
+	overflow: auto;
+	width: 1240px;
+}
+.add-goods{
+	margin-bottom:10px
+}
+.goods-title li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #ddd;
+	border-right: 1px #fff solid;
+}
+.goods-contain{
+	margin-top: 50px;
+}
+.goodslist-contain{
+	background-color:#fff;
+	height:102px;
+	border:1px solid #ccc;
+	box-shadow:0px 0px 10px #fff;
+	width: 1072px;
+	
+}
+.goods-pic{
+	width:120px;
+	height:100px;
+	background-size:cover;
+	border-right:1px solid #ccc;
+	float:left;	
+}
+.goods-info{
+	float:left;
+	font-family:"Microsoft YaHei UI";
+	margin-bottom: 0px;
+}
+.goods-info li{
+	border-right:1px solid #ccc;
+	float:left
+}
+.goods-info li div{
+	height:100px;
+	text-align:center;
+	line-height:100px;
+}
+.goods-name-contain{
+	width:300px;
+}
+.goods-id-contain{
+	width:150px;
+}
+.goods-price-contain,.goods-stock-contain,.goods-sold-contain{
+	width:100px;
+}
+.goods-option-contain{
+	width:200px;
+}
+
+/***********************        订单css       **************************/
+
+.order-list-head li{
+	background-color: #ddd;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px #fff solid;
+
+}
+.order-list-contain{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ccc;
+	clear:both;overflow:hidden
+}
+.order-list-contain li{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+	border-right: 1px #ccc solid;
+}
+
+.order-goods-list{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	height: 100px;
+	border-bottom: 1px #ccc solid;
+}
+.order-goods-detail{
+	float:left;
+}
+.order-goods-detail{
+	font-family:"Microsoft YaHei UI";
+	font-size:14px;
+}
+
+/********************       用户管理css      ************************/
